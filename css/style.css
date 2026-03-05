@@ -2,9 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
+  background-image: url(../img/sfondo.png);
+}
+
+#backgroundphoto {
   max-width: 480px;
   margin: auto;
-  background-image: url(../img/sfondo.png);
 }
 
 /* HEADER */
@@ -12,6 +15,7 @@ header {
   padding: 10%;
   text-align: center;
   background: linear-gradient(to top, #006688, #0088aa);
+  border: outset;
 }
 
 header p {
@@ -23,11 +27,16 @@ header ul {
   color: white;
   margin: 1em;
 }
+
+.hr {
+  border: none;
+}
 /* MAIN */
 
 main {
   background-color: white;
   padding: 1em;
+  border: outset;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
@@ -40,9 +49,9 @@ main h1 {
 }
 
 #credits {
-  color: silver;
+  color: rgb(179, 177, 177);
   font-family: "Poppins", sans-serif;
-  font-weight: 200;
+  font-weight: 250;
   font-style: normal;
   padding: 1em;
 }
@@ -90,22 +99,65 @@ main ol {
   font-style: normal;
   padding: 1%;
 }
-/* TABELLE */
-
-/* FORM */
-
-/* ELEMENTI NELL' ASIDE */
-
-/* FOOTER */
-footer {
-  background: linear-gradient(to top, #224444, #005566);
-  padding: 1em;
-  color: white;
-}
 
 #note4 {
   font-family: "Poppins", sans-serif;
   font-weight: 350;
   font-style: normal;
-  padding: 1%;
+  padding: 2%;
+}
+
+/* TABELLE */
+
+#note5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+  padding: 3%;
+}
+
+/* FORM */
+#form {
+  background-color: silver;
+  padding: 1.5em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+}
+
+#form h2 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 450;
+  font-style: normal;
+}
+
+#form p {
+  margin: 1em;
+  text-align: center;
+}
+
+#form form {
+  margin: 0em;
+  text-align: center;
+  border-bottom: dashed;
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+#aside h2 {
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  background: linear-gradient(to top, #224444, #005566);
+  padding: 1em;
+  color: white;
+  border: outset;
+}
+
+footer p {
+  padding: 0.5em;
 }

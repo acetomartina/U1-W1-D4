@@ -16,184 +16,189 @@
     />
   </head>
   <body>
-    <header>
-      <img src="img/logo.svg" />
+    <div id="backgroundphoto">
+      <header>
+        <img src="img/logo.svg" />
 
-      <p>EPICODE - IL BLOG DEI DEVELOPERS</p>
+        <p>EPICODE - IL BLOG DEI DEVELOPERS</p>
 
-      <ul>
-        <li>
-          <i class="fas fa-long-arrow-alt-right"></i> HOME
-          <i class="fas fa-long-arrow-alt-left"></i>
-        </li>
-        <li>
-          <i class="fas fa-long-arrow-alt-right"></i> ARTICOLI
-          <i class="fas fa-long-arrow-alt-left"></i>
-        </li>
-        <li>
-          <i class="fas fa-long-arrow-alt-right"></i> LAVORA CON NOI
-          <i class="fas fa-long-arrow-alt-left"></i>
-        </li>
-      </ul>
-    </header>
-    <hr />
-    <main>
-      <h1>Come creare un template per i post</h1>
+        <ul>
+          <li>
+            <i class="fas fa-long-arrow-alt-right"></i> HOME
+            <i class="fas fa-long-arrow-alt-left"></i>
+          </li>
+          <li>
+            <i class="fas fa-long-arrow-alt-right"></i> ARTICOLI
+            <i class="fas fa-long-arrow-alt-left"></i>
+          </li>
+          <li>
+            <i class="fas fa-long-arrow-alt-right"></i> LAVORA CON NOI
+            <i class="fas fa-long-arrow-alt-left"></i>
+          </li>
+        </ul>
+      </header>
+      <hr class="hr" />
+      <main>
+        <h1>Come creare un template per i post</h1>
 
-      <p id="credits">
-        <i class="fas fa-pen"></i> di Mario Rossi -
-        <i class="far fa-clock"></i> pubblicato il 25-10-2020
-      </p>
+        <p id="credits">
+          <i class="fas fa-pen"></i> di Mario Rossi -
+          <i class="far fa-clock"></i> pubblicato il 25-10-2020
+        </p>
 
-      <p id="note1">
-        La prima cosa da fare è suddividere in blocchi logici la pagina,
-        identificando le
-        <span style="color: rgb(109, 53, 109)"> parti comuni </span> da
-        applicare a tutte le pagine.
-      </p>
+        <p id="note1">
+          La prima cosa da fare è suddividere in blocchi logici la pagina,
+          identificando le
+          <span style="color: rgb(109, 53, 109)"> parti comuni </span> da
+          applicare a tutte le pagine.
+        </p>
 
-      <p id="note2">Le varie aree saranno quindi suddivise in:</p>
-      <ul>
-        <li>Contenuti di intestazione del tag <code>&lt;header&gt</code></li>
-        <li>
-          Contenuti centrali variabili del tag
-          <code>&lt;main&gt;</code> (corpo principale)
-        </li>
-        <li>
-          Contenuti di fine pagina comuni, da inserire nel tag
-          <code>&lt;footer&gt;</code>
-        </li>
-      </ul>
+        <p id="note2">Le varie aree saranno quindi suddivise in:</p>
+        <ul>
+          <li>Contenuti di intestazione del tag <code>&lt;header&gt</code></li>
+          <li>
+            Contenuti centrali variabili del tag
+            <code>&lt;main&gt;</code> (corpo principale)
+          </li>
+          <li>
+            Contenuti di fine pagina comuni, da inserire nel tag
+            <code>&lt;footer&gt;</code>
+          </li>
+        </ul>
 
-      <h2>Formattazione del codice</h2>
+        <h2>Formattazione del codice</h2>
 
-      <p id="note3">
-        Il testo dell'articolo dovrà essere formattato per identificare tutte le
-        parti da
-        <span style="color: rgb(109, 53, 109)">selezionare con i CSS.</span>
-        Perciò i passi saranno:
-      </p>
-      <ol>
-        <li>
-          Progettare su carta il markup finale, assegnando ad ogni specifico
-          testo il tag appropriato
-        </li>
-        <li>
-          Scrivere I'HTML dai tag esterni a quelli interni e dall'alto verso il
-          basso
-        </li>
-        <li>Applicare gli stili CSS</li>
-      </ol>
-      <p id="note4">
-        L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere a
-        diffusione pressoche totale.
-      </p>
-      <table>
-        <caption>
-          Diffusione dei CSS
-        </caption>
-        <tr>
-          <th>Anno</th>
-          <th>% di utilizzo</th>
-          <th>Supporto browsers</th>
-        </tr>
-        <tr>
-          <td>2000</td>
-          <td>20%</td>
-          <td>17%</td>
-        </tr>
-        <tr>
-          <td>2002</td>
-          <td>35%</td>
-          <td>22%</td>
-        </tr>
-        <tr>
-          <td>2004</td>
-          <td>45%</td>
-          <td>42%</td>
-        </tr>
-        <tr>
-          <td>2008</td>
-          <td>80%</td>
-          <td>51%</td>
-        </tr>
-        <tr>
-          <td>2012</td>
-          <td>100%</td>
-          <td>76%</td>
-        </tr>
-      </table>
+        <p id="note3">
+          Il testo dell'articolo dovrà essere formattato per identificare tutte
+          le parti da
+          <span style="color: rgb(109, 53, 109)">selezionare con i CSS.</span>
+          Perciò i passi saranno:
+        </p>
+        <ol>
+          <li>
+            Progettare su carta il markup finale, assegnando ad ogni specifico
+            testo il tag appropriato
+          </li>
+          <li>
+            Scrivere I'HTML dai tag esterni a quelli interni e dall'alto verso
+            il basso
+          </li>
+          <li>Applicare gli stili CSS</li>
+        </ol>
+        <p id="note4">
+          L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere
+          a diffusione pressoche totale.
+        </p>
+        <table>
+          <caption>
+            Diffusione dei CSS
+          </caption>
+          <tr>
+            <th>Anno</th>
+            <th>% di utilizzo</th>
+            <th>Supporto browsers</th>
+          </tr>
+          <tr>
+            <td>2000</td>
+            <td>20%</td>
+            <td>17%</td>
+          </tr>
+          <tr>
+            <td>2002</td>
+            <td>35%</td>
+            <td>22%</td>
+          </tr>
+          <tr>
+            <td>2004</td>
+            <td>45%</td>
+            <td>42%</td>
+          </tr>
+          <tr>
+            <td>2008</td>
+            <td>80%</td>
+            <td>51%</td>
+          </tr>
+          <tr>
+            <td>2012</td>
+            <td>100%</td>
+            <td>76%</td>
+          </tr>
+        </table>
 
-      <p>
-        Un test di validazione potrà essere fatto tramite il
-        <a href="#"> tool online </a> dedicato allo scopo. Una volta ottimizzato
-        il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri
-        developers come loro:
-      </p>
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/aBSZVeBRvDY?si=6RBya2OB4JEkFcMs"
-        title="YouTube video player"
-        frameborder="0"
-        allow="
-          accelerometer;
-          autoplay;
-          clipboard-write;
-          encrypted-media;
-          gyroscope;
-          picture-in-picture;
-          web-share;
-        "
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      ></iframe>
-      <h2>Novità</h2>
-      <p>
-        Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra
-        newsletter:
-      </p>
-      <form>
-        <input type="email" placeholder="Inserisci la tua e-mail" />
-        <button>Iscriviti!</button>
-      </form>
+        <p id="note5">
+          Un test di validazione potrà essere fatto tramite il
+          <a href="#"> tool online </a> dedicato allo scopo. Una volta
+          ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere
+          stati dei veri developers come loro:
+        </p>
+        <iframe
+          width="445"
+          height="315"
+          src="https://www.youtube.com/embed/aBSZVeBRvDY?si=6RBya2OB4JEkFcMs"
+          title="YouTube video player"
+          frameborder="0"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share;
+          "
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+        <div id="form">
+          <h2>NOVITA'</h2>
+          <p>
+            Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla
+            nostra newsletter:
+          </p>
+          <form>
+            <input type="email" placeholder="Inserisci la tua e-mail" />
+            <button>Iscriviti!</button>
+          </form>
+        </div>
+        <div id="aside">
+          <h2>ARTICOLI CORRELATI</h2>
 
-      <h2>Articoli correlati</h2>
+          <a href="#">Validare il codice HTML</a>
 
-      <a href="#">Validare il codice HTML</a>
+          <p>
+            Categoria: develop <br />
+            <br />
+            Data: 18-9-2020
+          </p>
 
-      <p>
-        Categoria: develop <br />
-        <br />
-        Data: 18-9-2020
-      </p>
+          <a href="#"> Correggere la sintassi </a>
 
-      <a href="#"> Correggere la sintassi </a>
+          <p>
+            Categoria: develop <br />
+            <br />
+            Data: Data: 16-9-2020
+          </p>
 
-      <p>
-        Categoria: develop <br />
-        <br />
-        Data: Data: 16-9-2020
-      </p>
+          <a href="#"> Meno Kb nella pagina </a>
 
-      <a href="#"> Meno Kb nella pagina </a>
-
-      <p>
-        Categoria: ottimizzazione <br />
-        <br />
-        Data: Data: 30-9-2020
-      </p>
-      <hr />
-    </main>
-    <footer>
-      <p>Blog Epicode ©2023</p>
-      <p>
-        <em>
-          Istata online di Mario Rossi, registrata con prot. n. 213/2018 - via
-          Luigi Einaudi 2 - Milano. P.IVA 00112233.
-          <a href="#">info@epicode.school </a>
-        </em>
-      </p>
-    </footer>
+          <p>
+            Categoria: ottimizzazione <br />
+            <br />
+            Data: Data: 30-9-2020
+          </p>
+        </div>
+      </main>
+      <hr class="hr" />
+      <footer>
+        <p>Blog Epicode ©2023</p>
+        <p>
+          <em>
+            Istata online di Mario Rossi, registrata con prot. n. 213/2018 - via
+            Luigi Einaudi 2 - Milano. P.IVA 00112233.
+            <a href="#">info@epicode.school </a>
+          </em>
+        </p>
+      </footer>
+    </div>
   </body>
 </html>
