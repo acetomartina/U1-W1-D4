@@ -140,7 +140,10 @@ main ol {
 #form form {
   margin: 0em;
   text-align: center;
-  border-bottom: dashed;
+}
+
+#email {
+  border-bottom:;
 }
 
 /* ELEMENTI NELL' ASIDE */
