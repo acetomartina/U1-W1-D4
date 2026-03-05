@@ -4,36 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sviluppo di una pagina web - Blog Epicode</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header>
       <img src="img/logo.svg" />
-      <p>Epicode - Il blog dei developers</p>
+
+      <p>EPICODE - IL BLOG DEI DEVELOPERS</p>
 
       <ul>
-        <li><a href="#"> Home </a></li>
-        <li><a href="#"> Articoli </a></li>
-        <li><a href="#"> Job </a></li>
+        <li>
+          <i class="fas fa-long-arrow-alt-right"></i> HOME
+          <i class="fas fa-long-arrow-alt-left"></i>
+        </li>
+        <li>
+          <i class="fas fa-long-arrow-alt-right"></i> ARTICOLI
+          <i class="fas fa-long-arrow-alt-left"></i>
+        </li>
+        <li>
+          <i class="fas fa-long-arrow-alt-right"></i> LAVORA CON NOI
+          <i class="fas fa-long-arrow-alt-left"></i>
+        </li>
       </ul>
-      <hr />
     </header>
+    <hr />
     <main>
       <h1>Come creare un template per i post</h1>
 
-      <p>di Mario Rossi - pubblicato il 25-10-2020</p>
-
-      <p>
-        La prima cosa da fare è suddividere in blocchi logici la pagina,
-        identificando le <strong> parti comuni </strong> da applicare a tutte le
-        pagine.
+      <p id="credits">
+        <i class="fas fa-pen"></i> di Mario Rossi -
+        <i class="far fa-clock"></i> pubblicato il 25-10-2020
       </p>
 
-      <p>Le varie aree saranno quindi suddivise in:</p>
+      <p id="note1">
+        La prima cosa da fare è suddividere in blocchi logici la pagina,
+        identificando le
+        <span style="color: rgb(109, 53, 109)"> parti comuni </span> da
+        applicare a tutte le pagine.
+      </p>
+
+      <p id="note2">Le varie aree saranno quindi suddivise in:</p>
       <ul>
         <li>Contenuti di intestazione del tag <code>&lt;header&gt</code></li>
         <li>
-          Contenuti centrali variabili del tag <code>&lt;main&gt;</code> (corpo
-          principale)
+          Contenuti centrali variabili del tag
+          <code>&lt;main&gt;</code> (corpo principale)
         </li>
         <li>
           Contenuti di fine pagina comuni, da inserire nel tag
@@ -43,9 +67,11 @@
 
       <h2>Formattazione del codice</h2>
 
-      <p>
+      <p id="note3">
         Il testo dell'articolo dovrà essere formattato per identificare tutte le
-        parti da <strong>selezionare con i CSS.</strong> Perciò i passi saranno:
+        parti da
+        <span style="color: rgb(109, 53, 109)">selezionare con i CSS.</span>
+        Perciò i passi saranno:
       </p>
       <ol>
         <li>
@@ -58,7 +84,7 @@
         </li>
         <li>Applicare gli stili CSS</li>
       </ol>
-      <p>
+      <p id="note4">
         L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere a
         diffusione pressoche totale.
       </p>

@@ -1,11 +1,95 @@
 /* IMPOSTAZIONI GENERALI */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  max-width: 480px;
+  margin: auto;
+  background-image: url(../img/sfondo.png);
+}
 
 /* HEADER */
+header {
+  padding: 10%;
+  text-align: center;
+  background: linear-gradient(to top, #006688, #0088aa);
+}
 
+header p {
+  margin: 2em;
+  color: white;
+}
+
+header ul {
+  color: white;
+  margin: 1em;
+}
 /* MAIN */
+
+main {
+  background-color: white;
+  padding: 1em;
+}
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 
+main h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 1em;
+}
+
+#credits {
+  color: silver;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  padding: 1em;
+}
+
+#note1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+  padding: 1%;
+}
+
+#note2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+  padding: 5%;
+}
+
+main ul {
+  list-style-type: disc;
+  font-family: "Poppins", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+  padding: 1%;
+}
+
+main h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 1em;
+}
+
+#note3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+  padding: 1%;
+}
+
+main ol {
+  list-style-type: disc;
+  font-family: "Poppins", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+  padding: 1%;
+}
 /* TABELLE */
 
 /* FORM */
@@ -13,3 +97,15 @@
 /* ELEMENTI NELL' ASIDE */
 
 /* FOOTER */
+footer {
+  background: linear-gradient(to top, #224444, #005566);
+  padding: 1em;
+  color: white;
+}
+
+#note4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+  padding: 1%;
+}
